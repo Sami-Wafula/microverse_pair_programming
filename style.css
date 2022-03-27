@@ -3,8 +3,14 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #cc0000;
+  background-color: #275e2e;
   color: white;
   font-family: 'Exo 2', sans-serif;
   padding: 1em;
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
 }
